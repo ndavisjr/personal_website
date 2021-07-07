@@ -9,7 +9,7 @@ const exampleProjects = [
       ],
       image: process.env.PUBLIC_URL + '/images/react-example.png',
       imageText: 'React Website Example',
-      link: 'still to come'
+      link: 'https://github.com/ndavisjr/personal_website'
     },
     {
       title: 'GraphQL API',
