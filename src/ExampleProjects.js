@@ -5,6 +5,7 @@ const exampleProjects = [
       description: [
         'Created personal website for displaying my resume',
         'Created in VS Code via create-react-app',
+        'Fully Responsive',
         'Utilizing @material-ui/core, @material-ui/icons',
       ],
       image: process.env.PUBLIC_URL + '/images/react-example.png',
