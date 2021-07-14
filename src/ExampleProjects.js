@@ -18,7 +18,7 @@ const exampleProjects = [
     description: [
       "Created early release of React website for my personal use with storm chasing",
       "Created in VS Code using React, Redux, Router, React Slick",
-      "Utilizing Firebase,  Oauth via Google, StyledComponents",
+      "Utilizing Firebase, Oauth via Google, StyledComponents",
     ],
     image: process.env.PUBLIC_URL + "/images/react_wx_example.png",
     imageText: "React Weather Example",
@@ -28,7 +28,7 @@ const exampleProjects = [
     title: "GraphQL API",
     date: "July 2021",
     description: [
-      "Created a simple GraphQL API endpoint for the same REST example",
+      "Created a simple GraphQL API endpoint CLI commands",
       "Endpoints contains example Queries, Mutations and Subscriptions",
       "Created in VS Code using .NET 5 and the Hot Chocolate Framework",
       "Database Management: SQL Server Express running in Docker",
@@ -42,15 +42,15 @@ const exampleProjects = [
     title: "REST API",
     date: "June 2021",
     description: [
-      "Created simple API endpoints for various code commands (ie CLI commands)",
+      "Created simple API endpoints for meat smoking instructions",
       "Endpoints developed: Create (POST), Read, Update (PUT), Delete (Json) Patch",
       "Created in VS Code using .NET 3.1 Core MVC standards",
       "Database Management: SQL Server Management Studio",
       "Utilizing .NET CLI, EntityFramework, Automapper, DataTransferObjects, Postman",
     ],
-    image: process.env.PUBLIC_URL + "/images/rest-example.png",
+    image: process.env.PUBLIC_URL + "/images/smoking-meats-example.png",
     imageText: "REST API Example",
-    link: "https://github.com/ndavisjr/REST-API-Example",
+    link: "https://github.com/ndavisjr/smoking-meat-api",
   },
   {
     title: "ASP.NET Web Application",

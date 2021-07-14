@@ -1,15 +1,15 @@
-import useStyles from './styles';
-import React from 'react';
-import PropTypes from 'prop-types';
-import Grid from '@material-ui/core/Grid';
-import Typography from '@material-ui/core/Typography';
-import Divider from '@material-ui/core/Divider';
-import Card from '@material-ui/core/Card';
-import CardActionArea from '@material-ui/core/CardActionArea';
-import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
-import Hidden from '@material-ui/core/Hidden';
-import Link from '@material-ui/core/Link';
+import useStyles from "./styles";
+import React from "react";
+import PropTypes from "prop-types";
+import Grid from "@material-ui/core/Grid";
+import Typography from "@material-ui/core/Typography";
+import Divider from "@material-ui/core/Divider";
+import Card from "@material-ui/core/Card";
+import CardActionArea from "@material-ui/core/CardActionArea";
+import CardContent from "@material-ui/core/CardContent";
+import CardMedia from "@material-ui/core/CardMedia";
+import Hidden from "@material-ui/core/Hidden";
+import Link from "@material-ui/core/Link";
 
 export default function Main(props) {
   const classes = useStyles();
@@ -24,7 +24,13 @@ export default function Main(props) {
       <Divider />
 
       {projects.map((post) => (
-        <CardActionArea className={classes.cardActionArea} component="a" href="#">
+        <CardActionArea
+          className={classes.cardActionArea}
+          component="a"
+          href={post.link}
+          target="_blank"
+          rel="noopener"
+        >
           <Card className={classes.card}>
             <div className={classes.cardDetails}>
               <CardContent>
@@ -35,21 +41,25 @@ export default function Main(props) {
                   {post.date}
                 </Typography>
                 <Typography variant="subtitle1" paragraph>
-
                   {post.description.map((desc) => (
                     <Typography variant="subtitle1" className={classes.desc}>
                       &#8226; {desc}
                     </Typography>
                   ))}
-
                 </Typography>
                 <Typography variant="subtitle1" color="primary">
-                  <Link href={post.link} target="_blank" rel="noopener" >{post.link}</Link>
+                  <Link href={post.link} target="_blank" rel="noopener">
+                    {post.link}
+                  </Link>
                 </Typography>
               </CardContent>
             </div>
             <Hidden xsDown>
-              <CardMedia className={classes.cardMedia} image={post.image} title={post.imageText} />
+              <CardMedia
+                className={classes.cardMedia}
+                image={post.image}
+                title={post.imageText}
+              />
             </Hidden>
           </Card>
         </CardActionArea>
