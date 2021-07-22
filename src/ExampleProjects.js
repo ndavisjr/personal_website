@@ -13,6 +13,20 @@ const exampleProjects = [
     link: "https://github.com/ndavisjr/personal_website",
   },
   {
+    title: "Blazor Web Server App",
+    date: "July 2021",
+    description: [
+      "https://rvliving.azurewebsites.net/",
+      "Created fully responsive RV camping web application",
+      "Created in Microsoft's Blazor Framework (C#, HTML Razor pages)",
+      "Consumes OpenWeatherAPI's and uses Dapper for database connectivity",
+      "SQL Server hosted on AWS RDS, web hosting on Azure Web Apps",
+    ],
+    image: process.env.PUBLIC_URL + "/images/blazor-example.png",
+    imageText: "Blazor Web Server App Example",
+    link: "https://github.com/ndavisjr/rvliving",
+  },
+  {
     title: "React Weather Links Website",
     date: "July 2021",
     description: [
