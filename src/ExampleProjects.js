@@ -33,6 +33,7 @@ const exampleProjects = [
       "Created early release of React website for my personal use with storm chasing",
       "Created in VS Code using React, Redux, Router, React Slick",
       "Utilizing Firebase, Oauth via Google, StyledComponents",
+      "https://davisweather-88e35.web.app/"
     ],
     image: process.env.PUBLIC_URL + "/images/react_wx_example.png",
     imageText: "React Weather Example",
