@@ -22,7 +22,7 @@ const exampleProjects = [
       "Consumes OpenWeatherAPI's and uses Dapper for database connectivity",
       "SQL Server hosted on AWS RDS, web hosting on Azure Web Apps",
     ],
-    image: process.env.PUBLIC_URL + "/images/blazor-example.png",
+    image: process.env.PUBLIC_URL + "/images/blazor_example.png",
     imageText: "Blazor Web Server App Example",
     link: "https://github.com/ndavisjr/rvliving",
   },
